@@ -1,4 +1,4 @@
-class HamburgerController < ApplicationController
+class HamburgersController < ApplicationController
   respond_to :html, :json
 
   def index

@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Emanuel', :city => cities.first)
+
+puts "Seeding Hamburgers"
+
+Hamburger.create name: "Test Hamburger", description: "Some Test Description", price: 25, rating: 5
+Hamburger.create name: "Test Hamburger 101", description: "Some Test Description 101", price: 50, rating: 8
+
+puts "Done with Seeding Hamburgers !!!"
