@@ -11,14 +11,14 @@
     </thead>
 
     <tbody>
-
     	[[ for hamburger in @hamburgers ]]
+    	<tr>
 			<td>[[= hamburger.name ]]</td>
 			<td>[[= hamburger.description ]]</td>
 			<td>[[= hamburger.rating ]]</td>
 			<td>[[= hamburger.price ]]</td>
+			<td>[[= link_to 'show',  hamburger_path(hamburger) ]]</td>
+		</tr>
 		[[ end ]]
-    
-
     </tbody>
 </table>
